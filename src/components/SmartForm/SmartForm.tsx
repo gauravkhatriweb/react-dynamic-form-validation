@@ -14,14 +14,14 @@ export interface SmartFormField {
 }
 
 export interface SmartFormProps {
-  fields: FormField[];
+  fields: SmartFormField[];
   validationRules: ValidationRules;
   onSubmit: (values: Record<string, string>) => Promise<void> | void;
   submitButtonText?: string;
   successMessage?: string;
   resetOnSubmit?: boolean;
   renderCustomField?: (
-    field: FormField,
+    field: SmartFormField,
     formProps: {
       value: string;
       onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
