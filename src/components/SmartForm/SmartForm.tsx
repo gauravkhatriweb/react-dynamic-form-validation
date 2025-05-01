@@ -5,7 +5,7 @@ import Button from '../UI/Button';
 import FormField from './FormField';
 import styles from './SmartForm.module.css';
 
-export interface FormField {
+export interface SmartFormField {
   name: string;
   label: string;
   type: 'text' | 'email' | 'password';

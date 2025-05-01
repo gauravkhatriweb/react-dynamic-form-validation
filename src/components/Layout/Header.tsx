@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaSun, FaMoon, FaCode } from 'react-icons/fa';
+import { FaGithub, FaCode } from 'react-icons/fa';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

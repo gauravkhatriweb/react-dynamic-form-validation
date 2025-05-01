@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus, vs } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { saveAs } from 'file-saver';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaDownload, FaCopy, FaCode, FaExpand, FaCompress, FaClipboardCheck } from 'react-icons/fa';
