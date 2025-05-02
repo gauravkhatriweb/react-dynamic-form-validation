@@ -4,6 +4,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: process.env.VITE_BASE_PATH || '/react-dynamic-form-validation',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
