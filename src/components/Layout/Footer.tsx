@@ -74,7 +74,14 @@ const Footer: React.FC = () => {
                   </a>
                 </motion.li>
                 <motion.li whileHover={{ x: 3 }} className="transition-colors">
-                  <a href="#" className="hover:text-primary-400">Report Issue</a>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSezjlxxQNj8Kxi8-qtfkdNGmfNQ9bHGDdqvzqBAeaauUsvpFQ/viewform" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary-400"
+                  >
+                    Report Issue
+                  </a>
                 </motion.li>
               </ul>
             </div>

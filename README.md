@@ -1,7 +1,7 @@
 # React Dynamic Form Validation
 
 <div align="center">
-  <img src="https://i.imgur.com/NXYOUsG.png" alt="React Form Validator Preview" width="800px" />
+  <img src="src\assets\Website-Perview-Screenshot.png" alt="React Form Validator Preview" width="800px" />
   <p><em>Beautiful, customizable form validation for React applications</em></p>
   
   <p>
@@ -26,7 +26,7 @@
 
 ## 🖥️ Demo
 
-### [View Live Demo](#) 
+### [View Live Demo](https://react-dynamic-form-validation.vercel.app/) 
 
 ## 📦 Installation
 
@@ -194,3 +194,19 @@ This project is licensed under the MIT License.
 Gaurav Khatri - [gauravkhatriweb@gmail.com](mailto:gauravkhatriweb@gmail.com)
 
 GitHub: [https://github.com/gauravkhatriweb](https://github.com/gauravkhatriweb) 
+
+## 🐛 Report Issues
+
+Found a bug or want to request a feature? Please use our issue reporting form:
+
+### [Report an Issue](https://docs.google.com/forms/d/e/1FAIpQLSezjlxxQNj8Kxi8-qtfkdNGmfNQ9bHGDdqvzqBAeaauUsvpFQ/viewform?usp=dialog)
+
+When reporting issues, please include:
+- Brief description of the issue
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Screenshots (if applicable)
+- Browser and OS information
+- React/Project version
+- Code snippet demonstrating the issue 
